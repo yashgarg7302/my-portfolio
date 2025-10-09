@@ -20,5 +20,12 @@ const projects = [
   link: "https://scheduling-algo-visualizer.netlify.app/",
   tags: ["JavaScript", "HTML", "CSS"],
   },
+  {
+    title: "CodeCast – Real-time Code Collaboration",
+    description:
+      "A real-time collaborative code editor built using the MERN stack (MongoDB, Express.js, React, Node.js) with Socket.IO. Multiple users can join a shared room, edit code simultaneously, and see live updates with syntax highlighting.",
+    link: "https://github.com/yashgarg7302/Code-Collab",
+    tags: ["MERN", "Socket.IO", "React", "Node.js", "Real-time"],
+  },
   ];
   export default projects;
