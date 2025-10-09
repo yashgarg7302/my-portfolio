@@ -4,7 +4,7 @@ import education from "@/data/education";
 
 export default function Education() {
 return (
-<Section id="education" className="bg-gray-50 dark:bg-neutral-900">
+<Section id="education" className="bg-neutral-100 dark:bg-neutral-800">
 <h2 className="text-3xl font-bold">Education</h2>
 <ol className="mt-8 relative border-s ps-6">
 {education.map((e) => (

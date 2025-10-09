@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <Section
       id="contact"
-      className="bg-gradient-to-b from-neutral-950 to-neutral-900 text-center text-neutral-200"
+      className="bg-neutral-100 dark:bg-neutral-800 text-center"
     >
       <h2 className="text-3xl font-bold text-white">Get in Touch</h2>
       <p className="mt-3 text-neutral-400 text-lg">

@@ -17,7 +17,7 @@ return (
 
 export default function Skills() {
 return (
-<Section id="skills" className="bg-gray-50 dark:bg-neutral-900">
+<Section id="skills" className="bg-neutral-100 dark:bg-neutral-800">
 <h2 className="text-3xl font-bold">Skills</h2>
 <div className="mt-8 grid gap-6 sm:grid-cols-2">
 <div>

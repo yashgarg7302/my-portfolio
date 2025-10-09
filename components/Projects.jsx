@@ -4,7 +4,7 @@ import projects from "@/data/projects";
 
 export default function Projects() {
 return (
-<Section id="projects" className="bg-white dark:bg-neutral-950">
+<Section id="projects" className="bg-gradient-to-b from-neutral-950 to-neutral-900">
 <div className="flex items-end justify-between">
 <h2 className="text-3xl font-bold">Projects</h2>
 <a href="https://github.com/yashgarg7302" target="_blank" className="text-sm hover:text-blue-600">See all →</a>

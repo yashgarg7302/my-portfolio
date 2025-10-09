@@ -2,10 +2,10 @@ export default function Hero() {
   return (
     <header
       id="home"
-      className="relative flex flex-col justify-center items-center text-center min-h-[90vh] overflow-hidden"
+      className="relative flex flex-col justify-center items-center text-center min-h-[90vh] overflow-hidden bg-gradient-to-b from-blue-50 to-white dark:from-neutral-900 dark:to-neutral-950"
     >
       {/* Animated gradient background */}
-      <div className="absolute inset-0 animate-gradient-x bg-gradient-to-tr from-blue-100 via-purple-100 to-pink-100 dark:from-neutral-900 dark:via-neutral-950 dark:to-neutral-900"></div>
+      {/* <div className="absolute inset-0 animate-gradient-x bg-gradient-to-tr from-blue-100 via-purple-100 to-pink-100 dark:from-neutral-900 dark:via-neutral-950 dark:to-neutral-900"></div> */}
 
       {/* Optional decorative blur elements */}
       <div className="absolute top-0 left-[-10%] w-[400px] h-[400px] bg-blue-200 dark:bg-blue-900 blur-[160px] opacity-40 rounded-full animate-pulse"></div>
