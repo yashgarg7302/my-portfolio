@@ -7,6 +7,13 @@ const projects = [
   tags: ["C++", "Naïve Bayes", "ML"],
   },
   {
+    title: "PDF Files Merger Web App",
+    description:
+    "A lightweight web application that enables users to merge multiple PDF files into a single document. Developed using Node.js and Express with server-side processing for secure and efficient PDF handling. Provides a simple and intuitive interface for uploading files and downloading the merged output.",
+  link: "https://github.com/yashgarg7302/merge-pdf-files",
+  tags: ["Node.js", "Express", "Multer", "PDF-Lib", "File Handling"],
+  },
+  {
   title: "Lane Detection for Self‑Driving Cars",
   description:
   "OpenCV pipeline using Canny + Hough Transform with ROI masking and slope filtering for robust lane boundary detection.",
@@ -27,5 +34,6 @@ const projects = [
     link: "https://github.com/yashgarg7302/Code-Collab",
     tags: ["MERN", "Socket.IO", "React", "Node.js", "Real-time"],
   },
+
   ];
   export default projects;
