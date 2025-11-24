@@ -31,7 +31,7 @@ const projects = [
     title: "CodeCast – Real-time Code Collaboration",
     description:
       "A real-time collaborative code editor built using the MERN stack (MongoDB, Express.js, React, Node.js) with Socket.IO. Multiple users can join a shared room, edit code simultaneously, and see live updates with syntax highlighting.",
-    link: "https://github.com/yashgarg7302/Code-Collab",
+    link: "https://code-collab-lemon.vercel.app/",
     tags: ["MERN", "Socket.IO", "React", "Node.js", "Real-time"],
   },
 
